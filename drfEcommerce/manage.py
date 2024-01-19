@@ -9,7 +9,7 @@ def main():
     """Run administrative tasks."""
 
     if base.DEBUG:      # i.e. If DEBUG = True
-        os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'drfEcommerce.settings.base')
+        os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'drfEcommerce.settings.local')
     else:
         os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'drfEcommerce.settings.production')
 
